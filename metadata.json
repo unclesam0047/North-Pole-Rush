@@ -1,0 +1,6 @@
+{
+  "name": "North Pole Rush 2.5D",
+  "description": "An arcade 2.5D North Pole sleigh runner built with Three.js, featuring dynamic lanes, obstacles, collectibles, power-ups, and synthesized winter audio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

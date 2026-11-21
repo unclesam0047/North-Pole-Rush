@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#071122" />
+      <stop offset="65%" stop-color="#0f2547" />
+      <stop offset="100%" stop-color="#16355e" />
+    </linearGradient>
+    <linearGradient id="aurora" x1="0" y1="0" x2="1" y2="0.4">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.1" />
+      <stop offset="45%" stop-color="#34d399" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.15" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fde68a" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="108" fill="url(#sky)" />
+  <path d="M0 170 Q150 95 280 155 T512 120 L512 220 Q360 250 240 200 T0 240 Z" fill="url(#aurora)" />
+  <circle cx="384" cy="116" r="18" fill="#fef3c7" />
+  <path d="M384 82 L390 110 L418 116 L390 122 L384 150 L378 122 L350 116 L378 110 Z" fill="#fef3c7" />
+  <path d="M0 370 Q160 330 310 365 T512 350 L512 512 L0 512 Z" fill="#e2e8f0" />
+  <path d="M0 398 Q180 365 340 398 T512 385 L512 512 L0 512 Z" fill="#f8fafc" />
+  <!-- Stylized Sleigh -->
+  <g transform="translate(108, 224)">
+    <path d="M24 148 L244 148 Q282 148 292 118" fill="none" stroke="url(#gold)" stroke-width="14" stroke-linecap="round" />
+    <path d="M72 118 L72 148 M204 118 L204 148" stroke="url(#gold)" stroke-width="12" stroke-linecap="round" />
+    <path d="M36 44 Q46 118 104 122 L228 122 Q264 122 272 78 L216 78 Q196 96 154 96 L98 96 Q74 96 68 44 Z" fill="#dc2626" />
+    <path d="M36 44 Q46 118 104 122 L228 122" fill="none" stroke="url(#gold)" stroke-width="8" stroke-linecap="round" />
+    <rect x="88" y="34" width="44" height="44" rx="6" fill="#059669" />
+    <rect x="106" y="34" width="8" height="44" fill="#fbbf24" />
+    <rect x="88" y="52" width="44" height="8" fill="#fbbf24" />
+    <rect x="138" y="46" width="38" height="36" rx="6" fill="#f59e0b" />
+    <circle cx="268" cy="76" r="10" fill="#fef08a" />
+  </g>
+</svg>
